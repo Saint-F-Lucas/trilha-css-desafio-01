@@ -16,9 +16,8 @@ header,
 main,
 section,
 footer {
+  width: 1440px;
   text-align: center;
-  justify-content: center;
-  align-items: center;
 }
 
 .module span,
@@ -45,12 +44,7 @@ footer {
 }
 
 .banner {
-  width: 1440px;
   height: 605px;
-  gap: 16px;
-  opacity: 0px;
-  margin: 10px auto 10px auto;
-
   border-bottom: 1px solid rgba(51, 168, 219, 1);
 
   background: linear-gradient(
@@ -62,7 +56,28 @@ footer {
   background-size: cover;
 }
 
-.banner h1 {
+.banner-content {
+  width: 540px;
+  height: 393px;
+  gap: 16px;
+}
+
+.logo {
+  margin: 10px auto 10px auto;
+
+  width: 268px;
+  height: 268px;
+
+  background: #00000033;
+  border-radius: 50%;
+  
+}
+.logo img {
+  width: 248;
+  height: 214px;
+}
+
+.banner-content h1 {
   -webkit-background-clip: text;
   color: transparent;
   background: linear-gradient(180deg, #33a8db 0%, #1472b7 100%);
@@ -71,11 +86,14 @@ footer {
   font-size: 40px;
   font-weight: 900;
   line-height: 46.96px;
+  gap: 16px;
 }
 
-.banner-content {
-  width: 510px;
-}
+.banner-content p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 23.48px;
+  }
 
 .banner-content,
 #course-content,
