@@ -18,6 +18,7 @@ section,
 footer {
   text-align: center;
   justify-content: center;
+  align-items: center;
 }
 
 .module span,
@@ -29,6 +30,9 @@ button {
 
 button {
   background-color: transparent;
+  border: 2px solid;
+  border-image: linear-gradient(180deg, #3ba1cd 0%, #1572b7 100%) 2 / 2px /
+    round;
 }
 
 footer {
@@ -43,11 +47,10 @@ footer {
 .banner {
   width: 1440px;
   height: 605px;
-  gap: 0px;
+  gap: 16px;
   opacity: 0px;
-  border: 2px solid;
+  margin: 10px auto 10px auto;
 
-  border-image-source: linear-gradient(180deg, #3ba1cd 0%, #1572b7 100%);
   border-bottom: 1px solid rgba(51, 168, 219, 1);
 
   background: linear-gradient(
@@ -72,4 +75,11 @@ footer {
 
 .banner-content {
   width: 510px;
+}
+
+.banner-content,
+#course-content,
+footer {
+  gap: 16px;
+  margin: 10px auto 10px auto;
 }
