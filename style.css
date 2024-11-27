@@ -59,7 +59,6 @@ footer {
 .banner-content {
   width: 540px;
   height: 393px;
-  gap: 16px;
 }
 
 .logo {
@@ -70,7 +69,6 @@ footer {
 
   background: #00000033;
   border-radius: 50%;
-  
 }
 .logo img {
   width: 248;
@@ -93,7 +91,7 @@ footer {
   font-size: 20px;
   font-weight: 400;
   line-height: 23.48px;
-  }
+}
 
 .banner-content,
 #course-content,
