@@ -5,6 +5,8 @@
   list-style: none;
   border: 0;
   font-family: 'Raleway';
+  text-decoration: none;
+  color: inherit;
 }
 
 html {
@@ -44,9 +46,13 @@ h2 {
 
 .module span,
 h2,
-button {
+button{
   color: rgba(51, 168, 219, 1);
   text-transform: uppercase;
+}
+
+a {
+  color: rgba(51, 168, 219, 1);
 }
 
 button {
@@ -161,4 +167,76 @@ footer {
 
   background: url(./assets/images/woman-code.png) fixed center;
   background-size: cover;
+}
+
+#transform-world p{
+  width: 244px;
+  height: 141px;
+
+
+  text-transform: lowercase;
+
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 46.96px;
+
+  text-align: left;
+
+  text-shadow: 3px 2px #33A8DB;
+  
+  margin-top: 111px;
+  margin-bottom: 111px;
+  margin-left: 198px;
+}
+
+#professional-challenges {
+  border-bottom: 1px solid rgba(51, 168, 219, 1);
+}
+
+#professional-challenges h2{
+  width: 800px;
+  line-height: 37.57px;
+
+  font-size: 32px;
+  font-weight: 700;
+  letter-spacing: 0.19em;
+  text-align: center;
+
+  margin: 100px auto 20px;
+
+}
+
+
+#professional-challenges p{
+  width: 800px;
+  text-align: center;
+  margin: 100px auto;
+
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+  text-align: center;
+}
+
+footer {
+  padding-bottom: 25px;
+}
+
+.dio-logo {
+  margin: 60px auto 10px;
+}
+
+.dio-logo p {
+  width: 259px;
+  height: 19px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 18.78px;
+
+}
+.dio-logo a {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18.78px;
+
 }
